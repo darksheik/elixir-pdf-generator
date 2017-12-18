@@ -46,7 +46,7 @@ defmodule PdfGenerator.Mixfile do
   defp deps do
     [
         # communication with external programs
-        {:porcelain, "~> 2.0.3"},
+        {:porcelain, "~> 2.0", git: "https://github.com/darksheik/porcelain", branch: "add_supervisor_init"},
         # a helper
         {:misc_random, ">=0.2.6" },
         # generate docs
